@@ -1,0 +1,23 @@
+body {
+    background-color: aqua;
+    color: red;
+  /* font-size font-family */
+font: 1.2em "Fira Sans", sans-serif;
+}
+
+h1 {
+    color: blue;
+}
+
+.large-heading {
+    color: purple;
+    font-size: 120px;
+    /* <font-weight-absolute> numeric values [1,1000] */
+    font-weight: 100;
+
+    /* top | left and right | bottom */
+padding: 1em 2em 2em;
+
+/* top and bottom | left and right */
+margin: 5% auto;
+}
